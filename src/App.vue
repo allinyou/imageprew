@@ -33,4 +33,16 @@ export default {
     }
   }
 }
+body{
+  margin:0;
+}
+
+ul,li{
+  padding: 0;
+  margin:0;
+  list-style: none;
+}
+.pswp--supports-fs .pswp__button--fs{
+  display: none!important;
+}
 </style>

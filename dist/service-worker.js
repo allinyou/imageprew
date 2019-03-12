@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/imageprew/dist/precache-manifest.09eeb0ad55d39bcaa52c793162b72885.js"
+  "/imageprew/dist/precache-manifest.5052cbe0511a58344444865def685a83.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "no.eslint"});

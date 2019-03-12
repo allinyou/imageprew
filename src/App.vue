@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-    </div>
     <router-view/>
   </div>
 </template>
@@ -44,5 +41,8 @@ ul,li{
 }
 .pswp--supports-fs .pswp__button--fs{
   display: none!important;
+}
+.pswp{
+  background-color: black;
 }
 </style>

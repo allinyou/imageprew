@@ -45,4 +45,7 @@ ul,li{
 .pswp{
   background-color: black;
 }
+.pswp__counter,.pswp__button{
+  opacity: 1!important;
+}
 </style>

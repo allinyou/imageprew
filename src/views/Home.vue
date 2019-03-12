@@ -23,17 +23,7 @@ export default {
     preview(index) {
       this.$imagePreview({
         images: this.images,
-        index: index,
-        defaultOpt: {
-          fullscreenEl: true,
-          shareEl: false,
-          arrowEl: true,
-          preloaderEl: true,
-          loop: false,
-          bgOpacity: 0.85,
-          showHideOpacity: true,
-          errorMsg: '<div class="pswp__error-msg">图片加载失败</div>',
-        }
+        index: index
       })
     }
   }
